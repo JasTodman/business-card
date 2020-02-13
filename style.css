@@ -1,0 +1,107 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    }
+
+
+body {
+  /* Where i set my background color */
+    background-color:rgb(189, 184, 184);
+    font-family: 'Raleway', sans-serif;
+}
+/* the main container */
+
+.front-side,
+.back-side {
+  width: 390;
+  height: 220px;
+  /* display: grid; */
+  /* each student will customize based on their grid */
+  /* grid-template-columns: 2% 96% 2%;
+  grid-template-rows: 4% 92% 4%; */
+  position: relative;
+  /* adjust this to space out the cards */
+  /* overflow: hidden; */
+  box-shadow: 2px 5px 15px 0px #17161694;
+  background-color:white;
+  margin-top: 20px;
+  
+  
+}
+.back-side{
+  background-image: url('CardBGb.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: white;
+  background-position: center;
+}
+.front-side{
+  background-image: url('CardBG.svg');
+  background-color: rgb(31, 34, 45);
+  background-position: center;
+}
+
+.name{
+  display: grid;
+  position: relative;
+  margin-top: 20px;
+  margin-left: 210px;
+
+}
+.web{
+  display: grid;
+  position: relative;
+  margin-top: 80px;
+  margin-left:50px;
+
+
+}
+.icons{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr; 
+  position: absolute;
+  margin-left: 140px;
+  margin-top: 110px;
+}
+
+.secondary{
+  display: grid;
+  position: relative;
+  margin-left: 50px;
+  margin-top: 50px;
+  padding: 10px;
+  
+
+}
+
+
+
+h3{
+  color: rgb(11, 12, 32);
+  margin-top: 30px;
+  margin-left: 10px;
+}
+
+h4{
+  color: rgb(36, 37, 56);
+  position: relative;
+  display: grid;
+  margin-left: 225px;
+  margin-top: 1px;
+}
+
+.website{
+  color: rgb(184, 179, 179);
+
+}
+
+.email{
+  color: rgb(184, 179, 179);
+}
+
+.socials{
+  color:rgb(184, 179, 179);
+
+}
